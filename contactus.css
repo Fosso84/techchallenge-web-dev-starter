@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Estonia-Regular";
+  src: url("./assets/fonts/Estonia-Regular.ttf");
+}
+@font-face {
+  font-family: "Greek Mythology";
+  src: url("./assets/fonts/Greek Mythology.ttf");
+}
+@font-face {
+  font-family: "Dancing Script SB";
+  src: url("./assets/fonts/DancingScript/static/DancingScript-SemiBold.ttf");
+}
+
+body {
+  background-image: url("./assets/img/darkbg.jpg");
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: #4ba4a9;
+}
+a:visited {
+  text-decoration: none;
+  color: #4ba4a9;
+}
+
+#clogo {
+  display: inline-block;
+  position: left;
+  height: 215px;
+}
+
+#navbar {
+  vertical-align: top;
+  display: inline-block;
+  text-align: right;
+  margin: 0 0 0 40% ;
+}
+
+.navitem {
+  font-family: "Estonia-Regular";
+  display: inline;
+  font-size: 60px;
+  text-shadow: black 1px 1px 2px;
+}
+
+.pipe {
+  font-family: "Greek Mythology";
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: "Dancing Script SB";
+  font-weight: bolder;
+  text-decoration: overline underline;
+  font-size: 300%;
+  color: #4ba4a9;
+  text-shadow: blue 1px 0 10px;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 0;
+}
+
+#msg {
+  height: 100px;
+  width: 500px;
+  color: white;
+  background-color: black;
+}
+
+
+.form {
+    font-family: "Estonia-Regular";
+    font-size: 60px;
+    color: #4ba4a9;
+    text-shadow: black 1px 1px 2px;
+		margin:0 0 0 200px;
+		width: 170px;
+	}
+	.form label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}
+	.form input{
+    color: white;
+    background-color: black;
+		display: inline-block;
+		text-align: left;
+		float: left;
+	}
+
+.btn {
+  font-family: "Estonia-Regular";
+  font-size: 40px;
+  font-style: bolder;
+  text-shadow: black 1px 1px 2px;
+  color: black;
+  height: 45px;
+  margin: 0px 5px 5px 5px;
+  background-color: #4ba4a9;
+}
